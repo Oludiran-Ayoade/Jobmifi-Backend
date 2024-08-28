@@ -9,7 +9,7 @@ ConnectDb();
 
 // Configure CORS options
 const corsOptions = {
-    origin: 'http://localhost:5173', 
+    origin: 'https://jobmifi-backend.onrender.com', 
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'], 
     allowedHeaders: ['Content-Type', 'Authorization'], 
     credentials: true 
