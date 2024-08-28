@@ -9,7 +9,7 @@ ConnectDb();
 
 // Configure CORS options
 const corsOptions = {
-    origin: 'https://jobmifi-backend.onrender.com', 
+    origin: 'https://jobmifi.netlify.app', 
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'], 
     allowedHeaders: ['Content-Type', 'Authorization'], 
     credentials: true 
